@@ -3,9 +3,6 @@ import webbrowser
 
 print("Welcome")
 
-#print("Please Speak what you want  : ", end = '')
-#ch = input()
-
 r = sr.Recognizer()
 
 with sr.Microphone() as source : # 'with' keyword is used to connect Python with Microphone and store the variable named as 'source '
