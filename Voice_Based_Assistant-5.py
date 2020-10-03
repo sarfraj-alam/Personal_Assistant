@@ -13,7 +13,7 @@ with sr.Microphone() as source : # 'with' keyword is used to connect Python with
 ch = r.recognize_google(audio)
 
 if (("run" or "start" or "launch") and ("Linux" in ch)):
-	webbrowser.open("http://192.168.43.239/mypage.html")
+	webbrowser.open("http://Your IP Address/mypage.html")
 elif (("exit" or "quit") in ch):
 	exit()
 else:
